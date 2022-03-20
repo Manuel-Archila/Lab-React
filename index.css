@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-image: url("imgbkg.jpg");
+  background-image: url("imbk.jpg");
   background-size: cover;
   width: 100%;
 }
@@ -35,7 +35,7 @@ body{
 
 .card{
   background-size: cover;
-  height: 150px;
+  height: 140px;
   width: 100px;
 }
 
@@ -43,10 +43,15 @@ body{
   display: flex;
   justify-content: space-evenly;
   color: white;
+  font-size: 30;
+  font-weight: bold;
 }
 
-.divtainer{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+
+.cardcontainer{
+  height: 140px;
+  width: 100px;
+  transition: all 1s ease-out;
+  transform-style: preserve-3d;
+  background-color:purple;
 }
